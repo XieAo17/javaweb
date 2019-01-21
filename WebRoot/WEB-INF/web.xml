@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" >
+	
+<servlet>
+<servlet-name>LoginServlet</servlet-name>
+<servlet-class>servlet.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>RegistServlet</servlet-name>
+<servlet-class>servlet.RegistServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>RegistServlet</servlet-name>
+<url-pattern>/RegistServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>FindAllServlet</servlet-name>
+<servlet-class>servlet.FindAllServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FindAllServlet</servlet-name>
+<url-pattern>/FindAllServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>IncreaseServlet</servlet-name>
+<servlet-class>servlet.IncreaseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>IncreaseServlet</servlet-name>
+<url-pattern>/IncreaseServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>DeleteServlet</servlet-name>
+<servlet-class>servlet.DeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteServlet</servlet-name>
+<url-pattern>/DeleteServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>AmendServlet</servlet-name>
+<servlet-class>servlet.AmendServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AmendServlet</servlet-name>
+<url-pattern>/AmendServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>AmendServlet2</servlet-name>
+<servlet-class>servlet.AmendServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AmendServlet2</servlet-name>
+<url-pattern>/AmendServlet2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>ImgServlet</servlet-name>
+<servlet-class>servlet.ImgServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ImgServlet</servlet-name>
+<url-pattern>/ImgServlet</url-pattern>
+</servlet-mapping>
+
+
+ 
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
